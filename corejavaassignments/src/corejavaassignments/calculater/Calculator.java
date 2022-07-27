@@ -4,15 +4,15 @@ public class Calculator {
 
 	public static void main(String[] args) {
 		    double a,b;
-		    int x,c=1;
+		    int x,y=1;
 		    Scanner sc=new Scanner(System.in);
-		    while(c==1)
+		    while(y==1)
 		    {
 		    	System.out.println("Select the operation to perform \n 1.Addition \n 2.Subtraction \n 3.Multiplication \n 4.Division");
 		        x=sc.nextInt();
 		        if(x<1 || x>5)
 		        {
-		        	System.out.println("Enter 1 (or) 2 (or) 3 (or) 4");
+		        	System.out.println("Enter any of the numbers 1  2  3  4");
 		        	x=sc.nextInt();
 		        }
 		        switch(x)
@@ -54,7 +54,7 @@ public class Calculator {
 		        c=sc.nextInt();
 		    }
 		    sc.close();
-		    if(c==0)
+		    if(y==0)
 		    {
 		    	System.out.println("Calculator closed");
 		    }
