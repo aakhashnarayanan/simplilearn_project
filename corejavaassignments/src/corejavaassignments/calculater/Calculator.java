@@ -51,7 +51,7 @@ public class Calculator {
 		        }
 		        }
 		        System.out.println("Press 1 to perform operations (or) Press 0 to close the calculator");
-		        c=sc.nextInt();
+		        y=sc.nextInt();
 		    }
 		    sc.close();
 		    if(y==0)
